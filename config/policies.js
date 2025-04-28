@@ -11,11 +11,11 @@
 module.exports.policies = {
 
   'candidate/apply-job': 'isLoggedIn',
-  // 'candidate/my-applied-jobs': 'isLoggedIn',
+  'candidate/apply-job': 'isLoggedIn',
 
   // Recruiter routes
   'recruiter/post-job': 'isLoggedIn',
-  // 'recruiter/view-applicants': 'isLoggedIn',
+  'recruiter/list-applicants': 'isLoggedIn',
   
   // Default to true (public) if needed
   '*': true
